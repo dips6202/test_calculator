@@ -8,13 +8,14 @@ table{
 }
 
 input{
-    font-size: 30px;
+    border: 2px solid rgb(4, 20, 19);
+    font-size: 34px;
 }
 
 button{
-    font-size: 24px;
+    font-size: 40px;
     background: rgb(26, 238, 220);
-    width :45px;
-    height: 45px;
+    width :102px;
+    height: 58px;
 }
 
