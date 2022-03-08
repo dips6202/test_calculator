@@ -16,8 +16,14 @@ input{
 button{
     border-radius: 80px;
     font-size: 40px;
-    background: rgb(26, 238, 220);
+    background: rgb(236, 120, 43);
     width :102px;
     height: 58px;
+}
+
+.calculator{
+    
+    border-radius: 53px;
+    display: inline-block;
 }
 
