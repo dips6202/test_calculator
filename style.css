@@ -8,11 +8,13 @@ table{
 }
 
 input{
-    border: 2px solid rgb(4, 20, 19);
+    border-radius: 20px;
+    border: 4px solid rgb(4, 20, 19);
     font-size: 34px;
 }
 
 button{
+    border-radius: 80px;
     font-size: 40px;
     background: rgb(26, 238, 220);
     width :102px;
