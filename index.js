@@ -22,4 +22,3 @@ for(item of buttons){
             screen.value = eval(screenValue);
         }     
     
-}
