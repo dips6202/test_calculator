@@ -11,12 +11,12 @@ for(item of buttons)
             buttonText = '*';
             screenValue += buttonText;            
             screen.value += screenValue;
-        }
-        
+        }        
          else if (buttonText =='AC'){
             screen.value += "=";
             screen.value += " ";
        }
+       
         else if (buttonText =='='){
             screen.value = eval(screenValue);
         } 
