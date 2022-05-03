@@ -7,12 +7,14 @@ for(item of buttons)
         buttonText = e.target.innerText; 
         
         console.log('Button text is ', buttonText); 
+        
         if(buttonText=='x'){
             buttonText = '*';
             screenValue += buttonText;            
             screen.value += screenValue;
         }        
          else if (buttonText =='AC'){
+
             screen.value += "=";
             screen.value += " ";
        }
