@@ -8,7 +8,8 @@ for(item of buttons)
         
         
         console.log('Button text is ', buttonText); 
-        if(buttonText=='x'){
+        if(buttonText=='x')
+        {
             buttonText = '*';
             screenValue += buttonText;            
             screen.value += screenValue;
@@ -17,7 +18,7 @@ for(item of buttons)
             screen.value += "=";
             screen.value += " ";
              
-        else if (buttonText =='='){
+        else    if (buttonText =='='){
             screen.value = eval(screenValue);
         } 
      
